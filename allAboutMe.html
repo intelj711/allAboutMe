@@ -2,8 +2,75 @@
 <html>
 <head>
 	<title>All About Me!</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis:200,400" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 
+<nav  id="header-nav" class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="allAboutMe.html">
+      	<a href="allAboutMe.html">
+        	<img class= "logo-img" src="images/fz.jpg">
+        	<span id="myName1">Zhang. Faye</span>
+      	</a>
+      </a>
+      <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="collapsable-nav">
+      <ul class="nav navbar-nav">
+        <li id="navResumeButton" class="active"><a href="#resume">About Me</a></li>
+        <li id="navColorGameButton"><a href="#">Color Game</a></li>
+        <li id="navTodoListButton"><a href="#">To Do List App</a></li>
+        <li id="navPatatapButton"><a href="#">Patatap Clone App</a></li>
+        <li id="photoGalleryButton"><a href="snippet/photoGallery.html">Photo Gallery</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+ <div id = "wall-paper" class="container">
+ 	<div class="row">
+ 		<div class="col-lg-12">
+ 			<div id="myName2" class="content">
+ 				<h1>Zhang. Faye</h1>
+ 				<hr>
+ 				<p>Become A Web Developer!</p>
+ 			</div>
+
+ 			<div id="resume" class="content">
+ 				<div id="skillset">
+ 					<p class="level1">MY SKILLSET</p>
+ 					<p class="level2">HTML/CSS/Javascript, JQuery, AJAX, Git, JAVA, Python</p>
+ 				</div>
+
+ 				<div id="education">
+ 					<p class="level1">EDUCATION</p>
+ 					<p class="level2">Sep, 2013 - May, 2015 <span class="level2">Master of Science Electrical Engineering, University of Minnesota</span></p>
+ 				</div>
+ 			</div>
+ 		</div>
+      </div>
+ 	</div>
+ </div>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
