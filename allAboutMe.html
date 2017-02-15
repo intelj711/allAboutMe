@@ -30,11 +30,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="collapsable-nav">
       <ul class="nav navbar-nav">
-        <li id="navResumeButton" class="active"><a href="#resume">About Me</a></li>
+        <li class="active"><a href="#resume">About Me</a></li>
 		<li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-paw fa-fw"></i>Fun Apps <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-			<li><a href="https://intelj711.github.io/colorGame/" target="_blank">Color Game</a></li>
+          <ul class="dropdown-menu active">
+			<li class="active"><a href="https://intelj711.github.io/colorGame/" target="_blank">Color Game</a></li>
 	        <li><a href="https://intelj711.github.io/todoList/" target="_blank">To-Do List</a></li>
 	        <li><a href="https://intelj711.github.io/patatap/" target="_blank">Patatap Clone</a></li>
 	        <li><a href="https://intelj711.github.io/coursera_js/week5" target="_blank">Restaurant Website</a></li>
@@ -43,7 +43,7 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#address"></i>Contact Me</a></li>
+        <li class="active"><a href="#ctcInfo">Contact Me</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -107,40 +107,25 @@
 
  <footer class="panel-footer">
     <div class="container">
-      <div class="row">
-        <section id="contactme" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <div class="row" id="ctcInfo">
+        <section id="Email" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <span><i class="fa fa-envelope-open-o" aria-hidden="true"></i>Email:</span><br>
           zhan1518@umn.edu<br>
           <br class="hidden-xs">
           <hr class="visible-xs">
+        </section>
+        <section id="Tel" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <span><i class="fa fa-mobile" aria-hidden="true"></i>Tel:</span><br>
           +1 6125161274<br>
           <br class="hidden-xs">
           <hr class="visible-xs">
+        </section>
+        <section id="contactme" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <span><i class="fa fa-address-card-o" aria-hidden="true"></i>Address:</span><br>
           1512 Vista Club Circle<br>
           Santa Clara, CA 95054<br>
           <hr class="visible-xs">
         </section>	
-
-        <section id="msgme" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-				<div class="row">
-					<label for="name">Your name:</label><br />
-					<input id="name" class="input" name="name" type="text" value="" size="40" /><br />
-				</div>
-				<div class="row">
-					<label for="email">Your email:</label><br />
-					<input id="email" class="input" name="email" type="text" value="" size="40" /><br />
-				</div>
-				<div class="row">
-					<label for="message">Your message:</label><br />
-					<textarea id="message" class="input" name="message" rows="7" cols="40"></textarea><br />
-				</div>
-				<input id="submit_button" type="submit" value="Send email" />
-			</form>		
-        	<hr>
-        </section>
       </div>
     </div>
   </footer>

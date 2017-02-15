@@ -9,18 +9,11 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 });
 
-(function(global) {
-
-    var faye_page = {};
-    var photoHtmlUrl = "snippets/photoGallery.html";
-
-        faye_page.loadPhoto = function() {
-        showLoading("#main-content");
-        $ajaxUtils.sendGetRequest(
-            allCategoriesUrl,
-            buildAndShowCategoriesHTML);
-    };
-
-    global.$faye_page = faye_page;
-
-})(window);
+$(document).ready(function() {
+    $('#bt1').click(function() {
+        $('#fr1').attr('action',
+                       'mailto:zhan1518@umn.edum?subject=' +
+                       $('#tb1').val() + '&body=' + $('#tb2').val());
+        $('#fr1').submit();
+    });
+});

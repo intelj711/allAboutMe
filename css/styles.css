@@ -80,7 +80,7 @@ hr {
 
 #resume {
 	width: 60%;
-
+	margin-bottom: 100px;
 }
 
 .resume-level1 {
@@ -110,9 +110,9 @@ hr {
 }
 
 .panel-footer {
-  margin-top: 30px;
+  margin-top: 80px;
   padding-top: 35px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   border-top: 0;
   text-align: center;
 }
@@ -136,7 +136,7 @@ hr {
 	display: none;
   }
   #resume {
-		margin-top: 550px;
+		margin-top: 600px;
 		width: 80%;
 	}
 
@@ -162,7 +162,7 @@ hr {
 	}
 
 	#resume {
-		margin-top: 700px;
+		margin-top: 750px;
 		width: 100%;
 	}
 
