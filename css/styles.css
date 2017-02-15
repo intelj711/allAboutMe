@@ -14,6 +14,9 @@ html {
     height: 100%;
 }
 
+ul .dropdown {
+	background: transparent;
+}
 
 .container {
 	width: 95%;
@@ -42,6 +45,7 @@ hr {
     width: 350px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-top: 50px;
 }
 
 #gallery_title {
@@ -74,6 +78,50 @@ hr {
 
 }
 
+#resume {
+	width: 60%;
+
+}
+
+.resume-level1 {
+	word-spacing: 0.5em;
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 5px;
+
+}
+
+.resume-level2 {
+	text-align: left;
+}
+
+.resume-level3 {
+	display: inline-block;
+	float: right;
+	padding-top: 5px;
+	font-size: 0.8em;
+}
+
+.we {
+	margin-top: 30px;
+	padding-left: 20px;
+	font-size: 0.8em;
+	text-align: left;
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0;
+  text-align: center;
+}
+
+.fa {
+	padding-right: 10px;
+}
+
+
 /********** Other devices only **********/
 @media (min-width: 768px) {
   #logo-img {
@@ -87,10 +135,11 @@ hr {
   #myName1 {
 	display: none;
   }
-
-	#resume {
-		margin-top: 600px;
+  #resume {
+		margin-top: 550px;
+		width: 80%;
 	}
+
   /* End Home Page */
 }
 /********** Small devices only **********/
@@ -114,6 +163,12 @@ hr {
 
 	#resume {
 		margin-top: 700px;
+		width: 100%;
+	}
+
+	section {
+		float: left;
+		clear: both;
 	}
   /* End Home Page */
 }
