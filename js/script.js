@@ -9,16 +9,18 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 });
 
-    var switchMenuToActive = function() {
-        // Remove 'active' from home button
-        var classes = document.querySelector("#navHomeButton").className;
-        classes = classes.replace(new RegExp("active", "g"), "");
-        document.querySelector("#navHomeButton").className = classes;
+(function(global) {
 
-        // Add 'active' to menu button if not already there
-        classes = document.querySelector("#navMenuButton").className;
-        if (classes.indexOf("active") === -1) {
-            classes += " active";
-            document.querySelector("#navMenuButton").className = classes;
-        }
+    var faye_page = {};
+    var photoHtmlUrl = "snippets/photoGallery.html";
+
+        faye_page.loadPhoto = function() {
+        showLoading("#main-content");
+        $ajaxUtils.sendGetRequest(
+            allCategoriesUrl,
+            buildAndShowCategoriesHTML);
     };
+
+    global.$faye_page = faye_page;
+
+})(window);
