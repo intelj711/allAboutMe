@@ -1,8 +1,6 @@
 body {
 	font-family: 'Dosis', sans-serif;
 	background-color: #383838;
-	background-image: url("../images/fz2_full.jpeg"); 
-	background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
     font-size: 20px;
@@ -18,8 +16,21 @@ ul .dropdown {
 	background: transparent;
 }
 
+#main-img {
+	margin-top: -100px;
+}
+
+
+
 .container {
-	width: 95%;
+	width: 100%;
+	padding: 0;
+	border-radius: 0;
+}
+
+.container .jumbotron {
+	width: 100%;
+	padding: 0;
 }
 
 #header-nav {
@@ -31,6 +42,16 @@ ul .dropdown {
 
 #navbarToggle {
 	border: none;
+	margin-right: 40px;
+}
+
+#collapsable-nav {
+	font-size: 15px;
+	margin-right: 20px;
+}
+
+nav.navbar.open {
+  margin-bottom: 120px;
 }
 
 .content{
@@ -48,17 +69,6 @@ hr {
     margin-top: 50px;
 }
 
-#gallery_title {
-	margin-left: 1.66%;
-	margin-bottom: 30px;
-	margin-top:30px;
-	font-size: 50px;
-	text-transform: uppercase;
-	border-bottom: 3px solid red;
-	width: 30%;
-	padding-bottom: 10px;
-}
-
 .navbar-inverse .navbar-nav>li>a {
 	color: #fff;
 	float: right;
@@ -70,7 +80,7 @@ hr {
 	float: right;
 }
 .navbar-collapse {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .navbar-header a:hover{
@@ -79,8 +89,8 @@ hr {
 }
 
 #resume {
-	width: 60%;
-	margin-bottom: 100px;
+	width: 90%;
+	margin: 50px auto;
 }
 
 .resume-level1 {
@@ -135,10 +145,7 @@ hr {
   #myName1 {
 	display: none;
   }
-  #resume {
-		margin-top: 600px;
-		width: 80%;
-	}
+
 
   /* End Home Page */
 }
@@ -161,10 +168,7 @@ hr {
 		display: none;
 	}
 
-	#resume {
-		margin-top: 750px;
-		width: 100%;
-	}
+
 
 	section {
 		float: left;
