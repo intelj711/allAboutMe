@@ -16,9 +16,6 @@ ul .dropdown {
 	background: transparent;
 }
 
-#main-img {
-	margin-top: -100px;
-}
 
 
 
@@ -37,7 +34,8 @@ ul .dropdown {
   border-radius: 0;
   border: 0;
   background: transparent;
-  padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #navbarToggle {
@@ -50,8 +48,8 @@ ul .dropdown {
 	margin-right: 20px;
 }
 
-nav.navbar.open {
-  margin-bottom: 120px;
+#main-content {
+	width: 100%;
 }
 
 .content{
@@ -89,7 +87,7 @@ hr {
 }
 
 #resume {
-	width: 90%;
+	width: 100%;
 	margin: 50px auto;
 }
 
@@ -138,6 +136,12 @@ hr {
   	width: ;
   }
   /* Home Page */
+
+  #resume {
+	padding-left: 80px;
+	padding-right: 80px;
+  }
+
   ul {
   	font-size: 15px;
   }
@@ -156,6 +160,11 @@ hr {
   	margin: 0 auto;
   	font-size: 30px;
   	padding: 0 auto;
+  }
+
+  #resume {
+	padding-left: 40px;
+	padding-right: 40px;
   }
 
 	#myName1 {
