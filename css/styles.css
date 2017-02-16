@@ -16,7 +16,11 @@ ul .dropdown {
 	background: transparent;
 }
 
-
+#logo-img {
+  width: 50px;
+  height: 50px;
+  margin: 10px 15px 10px 0;
+}
 
 
 .container {
@@ -70,7 +74,6 @@ hr {
 .navbar-inverse .navbar-nav>li>a {
 	color: #fff;
 	float: right;
-	clear: both;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
@@ -81,9 +84,15 @@ hr {
 	font-size: 20px;
 }
 
-.navbar-header a:hover{
-    text-decoration: none;
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
 
+#nav-list a {
+	margin-left: 5px;
+}
+#nav-list a:hover {
+  background: #696969;
 }
 
 #resume {
