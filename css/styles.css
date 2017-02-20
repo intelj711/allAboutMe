@@ -28,6 +28,7 @@ ul .dropdown {
 .dropdown-toggle {
 	font-size: 25px;
 	font-weight: bold;
+	text-shadow: #EEEE00 0 0 15px;
 }
 
 #logo-img {
