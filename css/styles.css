@@ -238,94 +238,7 @@ h2 {
 	letter-spacing: 5px;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-    display: none;
-}
-.mySlides img {
-	width: 100%;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-/*********** Photo Slider End****************/
-
 /***********Watercolor Fun ******************/
-
 
 /* Style the Image Used to Trigger the Modal */
 #myImg {
@@ -392,12 +305,13 @@ h2 {
     to {transform:scale(1)}
 }
 
+
 /* The Close Button */
 .close {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
+    color: #fff;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
@@ -416,7 +330,30 @@ h2 {
         width: 100%;
     }
 }
-/***********Watercolor Fun ******************/
+/***********Watercolor Fun Ends******************/
+
+
+
+/*********** To Top Button ***********************/
+.scrollToTop{
+	font-size: 15px;
+	width:70px; 
+	height:50px;
+	padding:0; 
+	text-align:center; 
+	color: #fff;
+	text-decoration: none;
+	position:fixed;
+	bottom: 10px;
+	right:20px;
+	display:none;
+}
+.scrollToTop:hover{
+	color: #bbb;
+	text-decoration:none;
+}
+/*********** Top Button Ends *******************/
+
 
 .panel-footer {
   margin-top: 80px;
