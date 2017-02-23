@@ -226,6 +226,10 @@ hr {
   	padding: 0 auto;
   }
 
+  hr {
+    width: 200px;
+  }
+
   #resume {
 	padding-left: 40px;
 	padding-right: 40px;
