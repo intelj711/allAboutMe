@@ -129,6 +129,11 @@ hr {
 	margin: 50px auto;
 }
 
+#bwd {
+  text-align: center;
+  text-shadow: #EEEE00 0 0 15px;
+}
+
 .resume-level1 {
 	word-spacing: 0.5em;
 	text-align: center;
