@@ -196,7 +196,7 @@ hr {
 /********** Other devices only **********/
 @media (min-width: 768px) {
   #logo-img {
-  	width: ;
+  	width: 50px;
   }
   /* Home Page */
 
