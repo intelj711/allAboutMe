@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ced305f1-a4c7-4764-8a0f-a25441c5758f" name="Default" comment="" />
+    <list default="true" id="ced305f1-a4c7-4764-8a0f-a25441c5758f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allAboutMe.html" afterPath="$PROJECT_DIR$/allAboutMe.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="allAboutMe.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/allAboutMe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="47" column="91" lean-forward="false" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
+            <state relative-caret-position="241">
+              <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -126,12 +128,12 @@
       <workItem from="1489559701992" duration="45000" />
       <workItem from="1489725910836" duration="158000" />
       <workItem from="1489729977841" duration="130000" />
-      <workItem from="1490242941347" duration="766000" />
+      <workItem from="1490242941347" duration="805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1232000" />
+    <option name="totallyTimeSpent" value="1271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="23" width="1440" height="873" extended-state="0" />
@@ -200,8 +202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/allAboutMe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="47" column="91" lean-forward="false" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
+        <state relative-caret-position="241">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding />
         </state>
       </provider>
