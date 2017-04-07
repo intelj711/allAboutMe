@@ -111,7 +111,7 @@ hr {
 
 .dropdown-menu li {
 	float: right;
-	clear: both;\
+	clear: both;
 }
 
 #nav-list a {
@@ -220,6 +220,7 @@ hr {
 /********** Small devices only **********/
 @media (max-width: 767px) {
   /* Home Page */
+
   h1 {
   	margin: 0 auto;
   	font-size: 30px;
