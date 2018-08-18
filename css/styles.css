@@ -137,8 +137,10 @@ hr {
   text-shadow: #EEEE00 0 0 15px;
 }
 
-#apps {
-	text-align: center;
+.apps {
+	color: #696969;
+	text-align: left;
+	overflow: hidden;
 }
 
 .resume-level1 {
