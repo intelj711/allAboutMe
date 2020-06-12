@@ -138,9 +138,11 @@ hr {
 }
 
 .apps {
-	color: #696969;
+	margin-top: 10px;
 	text-align: left;
-	overflow: hidden;
+	color: #fff;
+	font-size: 0.8em;
+	float: left;
 }
 
 .resume-level1 {

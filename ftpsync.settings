@@ -4,9 +4,10 @@
 
 	"default": {
 
-		"host": "ftp.zhangfaye.com",
-		"username": "zhangfaye",  // or null for anonymous login
+		"host": "ftp.fayezhang.com",
+		"username": "cf8nnqcp3tn1",  // or null for anonymous login
 		"password": "Wo^Ai^Nee711",
+		//"path": "/public_html/",
 		"path": "/public_html/",
 
 
